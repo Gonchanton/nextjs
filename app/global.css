@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Wix+Madefor+Display&display=swap');
+
+body{
+    background-color:black;
+}
+
+*{
+padding: 0;
+margin: 0;
+color: black;
+}

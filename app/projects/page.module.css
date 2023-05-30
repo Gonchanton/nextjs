@@ -1,0 +1,39 @@
+.scrollable{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    height: 770px; 
+    width: 730px;
+    top: 25px;
+    overflow-y: scroll; 
+    /* border: 1px solid #ccc; */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.scrollable::-webkit-scrollbar {
+    display: none; 
+}
+
+.con{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    font-family: 'Roboto Mono', monospace;
+    font-size: larger;
+}
+
+.terminalcursor {
+    animation: blinkCursor 1s infinite;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  @keyframes blinkCursor {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
