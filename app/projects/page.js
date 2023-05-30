@@ -58,7 +58,7 @@ const ScrollableDiv = () => {
           link="#"
           />
         <div className={styles.con}>
-            <p>I don't think I remembered everything, but not bad either<span className={styles.terminalcursor}>|</span></p>
+            <p>I don&apos;t think I remembered everything, but not bad either<span className={styles.terminalcursor}>|</span></p>
         </div>
       </div>
     );
